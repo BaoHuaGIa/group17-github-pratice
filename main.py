@@ -57,7 +57,7 @@ def main():
         elif choice == "3":
             handle_search_student(manager)
         elif choice == "0":
-            print("Thoat chuong trinh.")
+            print("Cam on ban da su dung chuong trinh.")
             break
         else:
             print("Lua chon khong hop le. Vui long nhap lai.")
