@@ -19,3 +19,6 @@ class StudentManager:
         
         for index, student in enumerate(self.students, 1):
             print(f"{index}. {student}")
+    def add_student(self, student):
+        """Thêm sinh viên mới vào danh sách"""
+        self.students.append(student)
