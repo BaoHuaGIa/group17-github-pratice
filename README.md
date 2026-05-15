@@ -2,7 +2,7 @@
 
 # Dự án Thực hành Git & GitHub - Nhóm 17
 
-Dự án này là bài tập thực hành về quản lý phiên bản mã nguồn (Version Control) và làm việc nhóm thông qua Git và GitHub.
+Dự án này là bài thực hành Git & GitHub của nhóm 17, tập trung vào quản lý phiên bản và phối hợp làm việc nhóm.
 
 ## 1. Thông tin chung
 
