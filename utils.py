@@ -1,7 +1,6 @@
-from student import students_list
-
-def search_student(student_id):
-    for s in students_list:
-        if s['id'] == student_id:
-            return s
+def search_student(manager, student_id):
+    """Tìm kiếm sinh viên bằng ID trong StudentManager"""
+    for student in manager.students:
+        if student.student_id == student_id:
+            return student
     return None
