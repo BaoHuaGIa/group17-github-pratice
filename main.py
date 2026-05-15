@@ -12,9 +12,9 @@ def show_menu():
 
 def input_student():
     print("\n--- Them sinh vien moi ---")
-    student_id = input("Nhap ma sinh vien: ")
-    name = input("Nhap ho ten sinh vien: ")
-    major = input("Nhap chuyen nganh: ")
+    student_id = input("Nhap ma sinh vien: ").strip()
+    name = input("Nhap ho ten sinh vien: ").strip()
+    major = input("Nhap chuyen nganh: ").strip()
 
     return Student(student_id, name, major)
 
@@ -32,7 +32,7 @@ def handle_display_students(manager):
 
 def handle_search_student(manager):
     print("\n--- Tim kiem sinh vien ---")
-    student_id = input("Nhap ma sinh vien can tim: ")
+    student_id = input("Nhap ma sinh vien can tim: ").strip()
 
     student = search_student(manager, student_id)
 
